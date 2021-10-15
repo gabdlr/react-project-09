@@ -75,3 +75,12 @@ h2 {
 .fa-lastfm {
   color: #d51007;
 }
+
+.bg-info{
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+  .bg-info {
+    min-height: unset;
+  }
+}
